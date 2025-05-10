@@ -32,7 +32,7 @@ local Window = Rayfield:CreateWindow({
       Key = {"Wave_Upd2"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local Tab = Window:CreateTab("Dead Rail", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("รางตาย", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "ป้องกันโกง (บัคต้องแก้ไข) 🛠️",
    Callback = function()
@@ -64,7 +64,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://pastebin.com/raw/0QbYRThv"))()
    end,
 })
-local Tab = Window:CreateTab("OpBypass", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("ป้องกัน แอดมิน", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "ป้องกันโกง[โกลบอล] 🛠️",
    Callback = function()
@@ -77,7 +77,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-nameless-admin-15646"))()
    end,
 })
-local Tab = Window:CreateTab("GachaOP", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("ความโชคดี สุ่มกาชา", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "โชคดี[เต็มที่] 🌠",
    Callback = function()
